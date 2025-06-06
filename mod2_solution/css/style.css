@@ -1,4 +1,3 @@
-/* Base styles */
 * {
   box-sizing: border-box;
 }
@@ -82,26 +81,26 @@ body::after {
 }
 
 /* Color customization */
-.ice-cream {
+#box1 {
   background-color: #f2d5f4;
 }
 
-.ice-cream .section-title {
+#box1 .section-title {
   background-color: #ff0707;
 }
 
-.cake {
+#box2 {
   background-color: #e8e7ac;
 }
 
-.cake .section-title {
+#box2 .section-title {
   background-color: #d935dc;
 }
 
-.pie {
+#box3 {
   background-color: #e9c5b1;
 }
 
-.pie .section-title {
+#box3 .section-title {
   background-color: #d4a65d;
 }
