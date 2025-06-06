@@ -81,27 +81,27 @@ body::after {
   }
 }
 
-/* Color customization (optional) */
+/* Color customization */
 .ice-cream {
-  background-color: #fff3cd;
+  background-color: #f2d5f4;
 }
 
 .ice-cream .section-title {
-  background-color: #ffc107;
+  background-color: #ff0707;
 }
 
 .cake {
-  background-color: #f8d7da;
+  background-color: #e8e7ac;
 }
 
 .cake .section-title {
-  background-color: #dc3545;
+  background-color: #d935dc;
 }
 
 .pie {
-  background-color: #d1ecf1;
+  background-color: #e9c5b1;
 }
 
 .pie .section-title {
-  background-color: #17a2b8;
+  background-color: #d4a65d;
 }
