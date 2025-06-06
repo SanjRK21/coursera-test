@@ -81,26 +81,26 @@ body::after {
 }
 
 /* Color customization */
-#box1 {
+#section1 {
   background-color: #f2d5f4;
 }
 
-#box1 .section-title {
+#section1 .section-title {
   background-color: #ff0707;
 }
 
-#box2 {
+#section2 {
   background-color: #e8e7ac;
 }
 
-#box2 .section-title {
+#section2 .section-title {
   background-color: #d935dc;
 }
 
-#box3 {
+#section3 {
   background-color: #e9c5b1;
 }
 
-#box3 .section-title {
+#section3 .section-title {
   background-color: #d4a65d;
 }
