@@ -82,26 +82,26 @@ body::after {
 }
 
 /* Color customization (optional) */
-.chicken {
+.ice-cream {
   background-color: #fff3cd;
 }
 
-.chicken .section-title {
+.ice-cream .section-title {
   background-color: #ffc107;
 }
 
-.beef {
+.cake {
   background-color: #f8d7da;
 }
 
-.beef .section-title {
+.cake .section-title {
   background-color: #dc3545;
 }
 
-.sushi {
+.pie {
   background-color: #d1ecf1;
 }
 
-.sushi .section-title {
+.pie .section-title {
   background-color: #17a2b8;
 }
