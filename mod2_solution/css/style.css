@@ -21,16 +21,15 @@ h1 {
   margin: 10px;
   position: relative;
   float: left;
+  width: 100;
 }
 
 .section-title {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #ddd;
-  border: 1px solid black;
-  padding: 5px 10px;
-  font-size: 1.25em; /* 25% larger */
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .section p {
