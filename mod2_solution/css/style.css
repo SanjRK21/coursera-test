@@ -14,92 +14,69 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* FLEX container for sections */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Section box */
 .section {
   border: 1px solid black;
-  background-color: #f4f4f4;
-  padding: 40px 20px 20px 20px;
-  margin: 10px;
+  background-color: #ccc;
+  padding: 40px 20px 20px;
+  margin: 10px 0;
   position: relative;
-  float: left;
-  width: 100%;
+  flex: 0 1 calc(33.333% - 20px);
 }
 
-.section-title {
-  max-width: 100%;
-  box-sizing: border-box;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.section p {
-  margin-top: 30px;
-  font-size: 1em;
-}
-
-/* Clearfix */
-body::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Desktop: 992px and above */
-@media (min-width: 992px) {
+/* Responsive behavior */
+@media (max-width: 991px) {
   .section {
-    width: 31.33%;
-  }
-
-  .section-title {
-    font-size: 1.25em;
-  }
-}
-
-/* Tablet: 768px to 991px */
-@media (min-width: 768px) and (max-width: 991px) {
-  .section {
-    width: 48%;
-    margin: 1%;
+    flex: 0 1 calc(48% - 10px);
   }
 
   .section:nth-child(3) {
-    width: 98%;
+    flex: 0 1 100%;
   }
 }
 
-/* Mobile: up to 767px */
 @media (max-width: 767px) {
   .section {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .section-title {
-    font-size: 1.25em;
+    flex: 0 1 100%;
   }
 }
 
-/* Color customization */
+/* Section title */
+.section-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+/* Custom colors */
 #section1 {
-  background-color: #f2d5f4;
+  background-color: #d3d3d3;
 }
-
 #section1 .section-title {
-  background-color: #ff0707;
+  background-color: #f4a8a8;
 }
 
 #section2 {
-  background-color: #e8e7ac;
+  background-color: #d3d3d3;
 }
-
 #section2 .section-title {
-  background-color: #d935dc;
+  background-color: #cc4444;
+  color: white;
 }
 
 #section3 {
-  background-color: #e9c5b1;
+  background-color: #d3d3d3;
 }
-
 #section3 .section-title {
-  background-color: #d4a65d;
+  background-color: #f7e199;
 }
