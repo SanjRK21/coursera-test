@@ -1,10 +1,10 @@
 .navbar {
-  background-color: #cccccc !important;
+  background-color: #d3d3d3 !important;
   border: none;
 }
 
 .section-box {
-  background-color: #e0e0e0;
+  background-color: #d3d3d3;
   padding: 20px;
   height: 1000px; /* or add more text to force scroll */
   margin-top: 20px;
