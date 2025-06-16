@@ -5,6 +5,11 @@
   margin-bottom: 30px;
 }
 
+h1 {
+  margin-top: 10px; /* or 0 if you want it very close to navbar */
+  margin-bottom: 30px; /* keeps spacing below the heading */
+}
+
 /* Add your own controlled padding inside */
 .menu-section > div {
   padding: 20px;
