@@ -1,12 +1,13 @@
 .navbar {
-  background-color: #cccccc; /* darker gray */
+  background-color: #cccccc !important;
   border: none;
 }
 
 .section-box {
-  background-color: #e0e0e0; /* light gray section */
+  background-color: #e0e0e0; /* light gray */
   padding: 20px;
-  height: 1000px;
+  height: 1000px; /* forces scroll */
   text-align: center;
 }
+
 
