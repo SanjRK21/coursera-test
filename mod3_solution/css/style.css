@@ -1,9 +1,37 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar brand spacing */
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Page heading: center align */
+.page-heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Menu section */
 .menu-section {
-  background-color: #e0e0e0;
+  background-color: #e0e0e0; /* Gray background */
   min-height: 1000px;
   padding: 20px;
-  margin-top: 30px; /* add this to increase space above */
+  margin-top: 30px;
   margin-bottom: 20px;
+}
+
+/* Headline inside the menu section (e.g., Chicken) */
+.menu-section h2 {
+  margin-top: 0;
+}
+
+/* Text inside the menu section */
+.menu-section p {
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 
