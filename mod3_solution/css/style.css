@@ -1,16 +1,21 @@
 .menu-section {
   background-color: #e0e0e0;
   min-height: 1000px;
-  padding: 20px;
-  margin-top: 0;
+  padding: 0; /* Remove Bootstrap .well padding */
   margin-bottom: 30px;
 }
 
-/* Bring 'Chicken' closer to top of gray box */
-.menu-section h2 {
-  margin-top: 0;         /* removes extra space above heading */
-  margin-bottom: 15px;   /* keep a little spacing under it */
+/* Add your own controlled padding inside */
+.menu-section > div {
+  padding: 20px;
 }
+
+/* Move Chicken heading up */
+.menu-section h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
 
 
 
