@@ -4,9 +4,10 @@
 }
 
 .section-box {
-  background-color: #e0e0e0; /* light gray */
+  background-color: #e0e0e0;
   padding: 20px;
-  height: 1000px; /* forces scroll */
+  height: 1000px; /* or add more text to force scroll */
+  margin-top: 20px;
   text-align: center;
 }
 
