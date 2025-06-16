@@ -6,9 +6,12 @@
 }
 
 .page-heading {
-  margin-top: 5px;
-  margin-bottom: 30px;
+  margin-top: 0;         /* pulls closer to navbar */
+  margin-bottom: 30px;   /* space below heading */
+  font-size: 36px;        /* optional: nicer heading */
+  font-weight: bold;
 }
+
 
 
 
