@@ -6,7 +6,7 @@
 }
 
 h1 {
-  margin-top: 10px; /* or 0 if you want it very close to navbar */
+  margin-top: 0px; /* or 0 if you want it very close to navbar */
   margin-bottom: 30px; /* keeps spacing below the heading */
 }
 
