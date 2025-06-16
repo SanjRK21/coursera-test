@@ -1,36 +1,47 @@
-/* Header styling */
-header {
-  background-color: #cccccc;
-  padding: 10px 20px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: #ccc;
+  padding: 10px 0;
+}
+
+.brand {
   font-size: 24px;
   font-weight: bold;
 }
 
-/* Center title */
 .menu-title {
   text-align: center;
-  margin: 30px 0 20px;
+  margin: 30px 0;
   font-size: 28px;
+  font-weight: bold;
 }
 
-/* Gray box for content */
-.content-box {
-  background-color: #e0e0e0;
+.menu-item {
+  background-color: #ccc;
   padding: 20px;
-  margin: 0 auto 40px;
-  width: 90%;
-  max-width: 1000px;
+  margin-bottom: 40px;
 }
 
-.content-box h3 {
+.menu-item h2 {
   text-align: center;
   font-weight: bold;
 }
 
-.content-box p {
-  text-align: left;
-  font-size: 16px;
+.menu-item p {
+  text-align: justify;
+  line-height: 1.6;
 }
+
 
 
 
