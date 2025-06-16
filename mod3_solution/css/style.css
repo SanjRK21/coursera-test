@@ -1,14 +1,36 @@
-.navbar {
-  background-color: #d3d3d3 !important;
-  border: none;
+/* Header styling */
+header {
+  background-color: #cccccc;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.section-box {
-  background-color: #d3d3d3;
-  padding: 20px;
-  height: 1000px; /* or add more text to force scroll */
-  margin-top: 20px;
+/* Center title */
+.menu-title {
   text-align: center;
+  margin: 30px 0 20px;
+  font-size: 28px;
 }
+
+/* Gray box for content */
+.content-box {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin: 0 auto 40px;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.content-box h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.content-box p {
+  text-align: left;
+  font-size: 16px;
+}
+
 
 
